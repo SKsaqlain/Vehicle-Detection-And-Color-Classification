@@ -3,7 +3,9 @@ This is a simple Project that Detects moving objects in this case vehicles and c
 ## Working
 The Object is being detected by subtracting the current frame from the previous frame thus any static objects compare to the previous frame is eliminated thus bringing out only the moving object, once the object is detected Morphological operations are done so that noises are eliminated and then Dialation are done to merge distorted blobs, then Contours are constructed to locate exact position of each object so that the corresponding dimensions can be used to extract the actual vehicle image from the original frame to get the rgb value, once the dimesnions are obtained normalization of rgb values are done within the area so that each object has as a single rgb associated to the entire area.<br/>
 Once the RGB values was obtained it was used to get the centroid of the cluster to which it actaully belonged to using k-means algorithm which was trained using predefined clusters centroids and values, but the model worked well but its accuracy can further be improved using different ML models.<br/>
-Once the correspondinig colors were obtained the output was written to a file output.txt the final output file is then used to detect the frequency of each color  that was seen in the current traffic and predict which color car was most frequently purchased, using Hadoop Map-Reduce Algorithm.
+Once the correspondinig colors were obtained the output was written to a file output.txt the final output file is then used to detect the frequency of each color  that was seen in the current traffic and predict which color car was most frequently purchased, using Hadoop Map-Reduce Algorithm.<br/>
+The sample output is shown below.
+![](output_GIF.gif)
 
 ## Requirements
 <ul>
