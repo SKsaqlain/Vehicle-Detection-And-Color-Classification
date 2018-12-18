@@ -8,9 +8,10 @@ The sample output is shown below.
 ![](output_GIF.gif)
 
 ## Requirements
-<ul>
+<ul type=1>
    <li>Python 3.6.5</li>
   <li>OpenCV 3</li>
+  <li>java version 1.8.0_181</li>
   <li>Hadoop 2.6.4 on Ubuntu 16.04</li>
 </ul>
 
@@ -43,4 +44,4 @@ The downloaded file contains the required output.
 
 
 ## License
-This project is licensed under the MIT License[LICENSE.md]
+This project is licensed under the [MIT License](LICENSE.md)
