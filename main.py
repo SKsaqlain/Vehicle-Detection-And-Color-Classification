@@ -125,7 +125,7 @@ def label(image,lab,colorNames):
 background=cv2.createBackgroundSubtractorMOG2()
 
 
-cap=cv2.VideoCapture('video_2.mp4')
+cap=cv2.VideoCapture('TestVideo.mp4')
 #initialising frame counter
 count_frame=0
 while(cap.isOpened()):
