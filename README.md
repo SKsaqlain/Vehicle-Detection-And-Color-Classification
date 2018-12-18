@@ -1,1 +1,1 @@
-# Vehical-Detection-And-Color-Classification
+# Vehicle-Detection-And-Color-Classification
